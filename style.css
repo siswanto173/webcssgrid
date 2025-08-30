@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(167, 166, 166);
+  background-color: rgb(205, 205, 205);
   font-size: 18px;
   margin: 50px;
 }
@@ -61,4 +61,34 @@ img {
 .feature .price {
   font-size: 3em;
   font-weight: 200;
+}
+
+/* navbar */
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+
+.menu .brand {
+  font-size: 1.3em;
+  color: rgb(73, 73, 73);
+}
+
+.menu ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 5px;
+}
+
+.menu a {
+  display: block;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 0.9em;
 }
